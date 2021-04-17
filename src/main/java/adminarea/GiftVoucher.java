@@ -17,7 +17,7 @@ public class GiftVoucher {
      *Invoking this method will navigate you to the user area of the project
      */
     public static void goTo() {
-        Browser.driver.get("http://shop.pragmatic.bg/admin/");
+        //Browser.driver.get("http://shop.pragmatic.bg/admin/");
     }
 
 
@@ -59,9 +59,9 @@ public class GiftVoucher {
 
     public static void GVoucherRemoveAndCreateNew(String Code, String FromName, String FromEmail, String ToName, String ToEmail, String Message, String Amount) {
 
-        WebDriverWait wait = new WebDriverWait(Browser.driver,10);
+       // WebDriverWait wait = new WebDriverWait(Browser.driver,10);
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.table-responsive tbody")));
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.table-responsive tbody")));
 
 
         WebElement tableVouchers = Browser.driver.findElement(By.cssSelector("div.table-responsive tbody"));
