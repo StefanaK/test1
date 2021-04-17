@@ -68,8 +68,8 @@ public class GiftVoucher {
 
 
         if(tableVouchers.getText().contains("Atanas Yordanov")){
-            System.out.println(tableVouchers.getText());
-            //Browser.driver.findElement(By.name("selected[]")).click();
+
+            Browser.driver.findElement(By.name("selected[]")).click();
 
               // Browser.driver.findElement(By.cssSelector(".btn-danger")).click();
               //          try{
