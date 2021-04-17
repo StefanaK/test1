@@ -17,7 +17,7 @@ public class GiftVoucher {
      *Invoking this method will navigate you to the user area of the project
      */
     public static void goTo() {
-        //Browser.driver.get("http://shop.pragmatic.bg/admin/");
+        Browser.driver.get("http://shop.pragmatic.bg/admin/");
     }
 
 
