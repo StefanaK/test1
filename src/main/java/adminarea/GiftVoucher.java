@@ -59,7 +59,7 @@ public class GiftVoucher {
 
     public static void GVoucherRemoveAndCreateNew(String Code, String FromName, String FromEmail, String ToName, String ToEmail, String Message, String Amount) {
 
-       // WebDriverWait wait = new WebDriverWait(Browser.driver,10);
+        WebDriverWait wait = new WebDriverWait(Browser.driver,10);
 
         //wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.table-responsive tbody")));
 
