@@ -61,7 +61,7 @@ public class GiftVoucher {
 
         WebDriverWait wait = new WebDriverWait(Browser.driver,10);
 
-        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.table-responsive tbody")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.table-responsive tbody")));
 
 
         WebElement tableVouchers = Browser.driver.findElement(By.cssSelector("div.table-responsive tbody"));
